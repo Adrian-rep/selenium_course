@@ -1,0 +1,7 @@
+wejście na stronę główną aplikacji powinno znajdować się w klasie beforeTest
+    Dostawową dobrą praktywkąwp isaniu kodu jest takie nazywanie klas, metod oraz zmiennych, aby były one "samo opisujące się"
+Nazwy klas, metod i zmiennych powinny być nazwane w taki sposób, aby osoba która patrzy z boku na nazwę wiedziałą co znajduje się
+w jej środku lub do czego służy bez konieczności wchodzenia do środka i zapoznawania się ze szczegółami implementacji
+    POP został wymyślony w celu uniknięcia duplikacji i łatwiejszej pracy z webelementami. Zakłada on, że część lub całość widzianej
+strony to obiekt, w takim samym znaczeniu jak w programowaniu obiektowym. W skład obiektu wchodzą webelementy oraz metody, które wykonują akcje na WebElementach.
+    Podzielenie projektu na page.objects, tests (każdy pageobject osobna klasa, testbase gdzie jest before,after method)
